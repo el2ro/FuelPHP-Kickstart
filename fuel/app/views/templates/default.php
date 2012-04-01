@@ -34,7 +34,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">FuelPHP Kickstart</a>
+          <a class="brand" href="#"><?php echo Lang::get('kickstart.site.name'); ?></a>
           <div class="nav-collapse">
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
