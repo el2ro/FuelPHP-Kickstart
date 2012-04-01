@@ -24,7 +24,7 @@ As of right now this is a manual install. Once the features are better in place,
 ###Clone the KickStart Repo
 The first step is to clone the fuelphp-kickstart repo!  We have a lot of submodules in here, so we need to make sure we recursively clone those. So from your command line run:
     
-    git clone --recursive git://github.com/dberry37388/FuelPHP-Kickstart.git kickstart
+    git clone --recursive git@github.com:dberry37388/FuelPHP-Kickstart.git kickstart
 
 What this does is tell git to clone the fuelphp-kickstart repo, and go through all of the submodules and clone them as well and put all of that into a folder named "kickstart".
 You can rename the "kickstart" folder to whatever you want that folder to be called.
