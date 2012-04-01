@@ -19,6 +19,6 @@ class Writable
 		chmod(APPPATH.'/logs', 0777);
 		chmod(APPPATH.'/cache', 0777);
 		chmod(APPPATH.'/config', 0777);
-		chmod(APPPATH.'/config/crypt.php', 0777);
+		chmod(APPPATH.'/config/crypt.php', 0666);
 	}
 }
