@@ -20,7 +20,7 @@ class Writable
 		chmod(APPPATH.'cache', 0777);
 		chmod(APPPATH.'config', 0777);
 		chmod(APPPATH.'tmp', 0777);
-		chmod(APPPATH.'config/crypt.php', 0666);
+		chmod(APPPATH.'config', 0777);
 	}
 }
 
