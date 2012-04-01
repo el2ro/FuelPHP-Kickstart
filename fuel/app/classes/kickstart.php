@@ -53,9 +53,6 @@ class Kickstart
 
 		// get messages
 		Message::check_messages();
-
-		// let's load the kickstart config
-		Config::load('kickstart', true);
 	}
 
 

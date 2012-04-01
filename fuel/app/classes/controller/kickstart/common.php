@@ -85,6 +85,27 @@ class Controller_Kickstart_Common extends Controller_Template
 	//-------------------------------------------------------------------------------------
 	
 
+	public function before()
+	{
+		parent::before();
+
+		/**
+		 * Holds generic meta information
+		 * 
+		 * you can override these by reassigning the whole array, or individually as needed.
+		 * @var array
+		 */
+		$this->template->set('meta', array(
+			'description' => Lang::get('kickstart.site.meta.description'),
+			'keywords'    => Lang::get('kickstart.site.meta.keywords'),
+			'author'      => Lang::get('kickstart.site.meta.author'),
+		), false);
+	}
+
+
+	//-------------------------------------------------------------------------------------
+	
+
 	/**
 	 * @param null $response
 	 * @return mixed
