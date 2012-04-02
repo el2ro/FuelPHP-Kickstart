@@ -73,3 +73,21 @@ your DB password just hanging around in the web somewhere.
 	php oil r git
 
 <hr />
+
+Learn More About:
+=================
+Take some time to look through the documentation for the FuelPHP Framework, Sentry, and other packages used in the KickStart.
+
+###FuelPHP
+FuelPHP is a simple, flexible, community driven PHP 5 web framework. It was born out of the frustrations people have with the current available frameworks and developed with support from a community of developers. FuelPHP is extremely portable, works on almost any server and prides itself on clean syntax.
+
+- Website: http://www.fuelphp.com
+- Documentation: http://fueldevdocs.exite.eu/
+- GitHub: http://github.com/fuel
+
+###Sentry by Cartalyst
+A simple, easy to use authorization and authentication package built for FuelPHP.
+
+- Website: http://sentry.cartalyst.com/
+- Documentation: http://sentry.cartalyst.com/manual/v1.1.html (v1.1)
+- GitHub: https://github.com/cartalyst/sentry
