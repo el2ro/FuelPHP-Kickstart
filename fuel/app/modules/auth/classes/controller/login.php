@@ -48,7 +48,8 @@ class Controller_Login extends Controller_Module
 
 					if ($valid_login)
 					{
-						\Response::redirect(\Config::get('auth.default_landing'));
+						// decide where to send the user
+						\Response::redirect(\Session::get('last_viewed', \Config::get('auth.default_landing')));
 					}
 					else
 					{

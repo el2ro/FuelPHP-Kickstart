@@ -22,6 +22,12 @@ class Controller_Module extends \Controller_Kickstart_Common
 {
 
 	/**
+	 * set a specific template to use for the profile module
+	 * @var string $template
+	 */
+	var $template = 'templates/profile';
+
+	/**
 	 * Setup the Controller
 	 */
 	public function before()
