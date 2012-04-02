@@ -39,7 +39,7 @@
 
                 <span class="pull-right form-action-link-align">
                     <i class="icon-user"></i> Don't Have an Account? <a href="<?php echo Router::get('auth/register'); ?>">Sign Up!</a> <br />
-	                <i class="icon-exclamation-sign"></i> Remembered Your Password? <a href="<?php echo \Router::get('auth/login'); ?>>Login!</a>
+	                <i class="icon-exclamation-sign"></i> Remembered Your Password? <a href="<?php echo \Router::get('auth/login'); ?>">Login!</a>
                 </span>
             </div>
         </form>
